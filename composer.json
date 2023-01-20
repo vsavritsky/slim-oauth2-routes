@@ -9,17 +9,11 @@
             "role": "Developer"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/tchapi/slim-oauth2-http"
-        }
-      ],
     "license": "MIT",
     "require": {
         "php": "^7.4 || ^8.0",
         "bshaffer/oauth2-server-php": "^1.9",
-        "chadicus/slim-oauth2-http": "dev-next"
+        "vsavritsky/slim-oauth2-http": "^4.0"
     },
     "suggest": {
         "chadicus/slim-oauth2-middleware": "Adds OAuth2 middleware for API requests.",
